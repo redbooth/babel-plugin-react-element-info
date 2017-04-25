@@ -1,7 +1,7 @@
-React.createClass({
+const MyJSXElementContainer = React.createClass({
   render: function () {
-    return <MyJSXElementContainer data-someweirdPrefix-node="MyJSXElementContainer" data-someweirdPrefix-file="actual">
+    return <div data-someweirdPrefix-node="MyJSXElementContainer" data-someweirdPrefix-file="actual">
         Element contents
-      </MyJSXElementContainer>;
+      </div>;
   }
 });

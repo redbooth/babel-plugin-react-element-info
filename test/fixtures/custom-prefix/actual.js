@@ -1,9 +1,9 @@
-React.createClass({
+const MyJSXElementContainer = React.createClass({
   render: function() {
     return (
-      <MyJSXElementContainer>
+      <div>
         Element contents
-      </MyJSXElementContainer>
+      </div>
     );
   },
 });

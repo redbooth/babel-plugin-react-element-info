@@ -1,9 +1,13 @@
-React.createClass({
+const MyJSXElementContainer = React.createClass({
   render: function() {
     return (
-      <MyJSXElementContainer>
-        Element contents
-      </MyJSXElementContainer>
+      <div>
+        <span>
+          Element contents
+        </span>
+      </div>
     );
   }
 });
+
+const MyArrowFunctionComponent = (props) => <div>oh yeah</div>
