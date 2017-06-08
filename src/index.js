@@ -28,7 +28,10 @@ export default function({types: t}) {
           t.jSXExpressionContainer(t.logicalExpression(
             '&&',
             t.memberExpression(
-              t.identifier('__DEBUG'),
+              t.memberExpression(
+                t.identifier('window'),
+                t.identifier('__DEBUG'),
+              ),
               t.identifier(defaultDebugProperty),
             ),
             t.stringLiteral(source)
